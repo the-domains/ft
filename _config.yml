@@ -1,28 +1,40 @@
-name: fT
 favicon: null
-layout_spectrum: 0.37708244752138853
-typography_spectrum: 0.7272197320125997
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: fT
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.234767
+  brandStrength: 0.8555944918189198
+  lightness: 0.1792115
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.8555944918189198
-  lightness: 0.5025538327172399
-  saturation: 0.17974889720790088
-  rhythmicContrast: 0.0043546517845243216
-purpose: []
+  rhythmicContrast: 0.8870968
+typography_spectrum: 0.5232975
+layout_spectrum: 0.8924731
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
